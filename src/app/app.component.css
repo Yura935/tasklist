@@ -1,0 +1,47 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container>h2 {
+  margin-bottom: 10px;
+}
+
+hr {
+  background-color: gray;
+  height: 1px;
+  border: none;
+}
+
+.input {
+  width: 84%;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 2px 3px rgb(101, 175, 255);
+}
+
+.add {
+  width: 15%;
+  height: 35px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: darkgreen;
+}
+
+.add:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px green;
+}
+

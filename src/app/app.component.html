@@ -1,0 +1,12 @@
+
+
+<div class="container">
+  <h1>Plan your day!</h1>
+  <h2>User: Ivan Ivanov. Count of Task {{taskLists.length}}</h2>
+  <hr>
+  <input type="text" class="input" [(ngModel)]="taskName" name="taskName">
+  <button class="add" (click)="addTask()">Add</button>
+  <hr>
+</div>
+
+<app-new-task-list [getLists]="taskLists"></app-new-task-list>
